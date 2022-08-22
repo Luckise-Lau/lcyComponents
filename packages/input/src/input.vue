@@ -4,6 +4,7 @@
       v-bind="$attrs"
       :type="type"
       :value="value"
+      :placeholder="placeholder"
       @input="handleInput"
     >
   </div>
@@ -20,6 +21,10 @@ export default {
     type: {
       type: String,
       default: 'text'
+    },
+    placeholder: {
+      type: String,
+      default: ''
     }
   },
   methods: {
