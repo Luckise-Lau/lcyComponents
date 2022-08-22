@@ -1,33 +1,8 @@
-41 error Error: Command failed with exit code 1: npm install --package-lock-only --ignore-scripts
-41 error npm WARN config global `--global`, `--local` are deprecated. Use `--location=global` instead.
-41 error npm ERR! code ERESOLVE
-41 error npm ERR! ERESOLVE could not resolve
-41 error npm ERR!
-41 error npm ERR! While resolving: @vue/eslint-config-standard@6.1.0
-41 error npm ERR! Found: eslint-plugin-vue@8.7.1
-41 error npm ERR! node_modules/eslint-plugin-vue
-41 error npm ERR!   dev eslint-plugin-vue@"^8.0.3" from the root project
-41 error npm ERR!
-41 error npm ERR! Could not resolve dependency:
-41 error npm ERR! peer eslint-plugin-vue@"^7.0.0" from @vue/eslint-config-standard@6.1.0
-41 error npm ERR! node_modules/@vue/eslint-config-standard
-41 error npm ERR!   dev @vue/eslint-config-standard@"^6.1.0" from the root project
-41 error npm ERR!
-41 error npm ERR! Conflicting peer dependency: eslint-plugin-vue@7.20.0
-41 error npm ERR! node_modules/eslint-plugin-vue
-41 error npm ERR!   peer eslint-plugin-vue@"^7.0.0" from @vue/eslint-config-standard@6.1.0
-41 error npm ERR!   node_modules/@vue/eslint-config-standard
-41 error npm ERR!     dev @vue/eslint-config-standard@"^6.1.0" from the root project
-41 error npm ERR!
-41 error npm ERR! Fix the upstream dependency conflict, or retry
-41 error npm ERR! this command with --force, or --legacy-peer-deps
-41 error npm ERR! to accept an incorrect (and potentially broken) dependency resolution.
-41 error npm ERR!
-41 error npm ERR! See F:\npm_cache\eresolve-report.txt for a full report.
-41 error
-41 error npm ERR! A complete log of this run can be found in:
-41 error npm ERR!     F:\npm_cache\_logs\2022-08-22T04_46_14_623Z-debug-0.log
-41 error     at makeError (D:\studySpace\studyCodeSpace\42-VueComponentGallery\storybook-components\node_modules\execa\lib\error.js:60:11)
-41 error     at handlePromise (D:\studySpace\studyCodeSpace\42-VueComponentGallery\storybook-components\node_modules\execa\index.js:118:26)
-41 error     at processTicksAndRejections (node:internal/process/task_queues:96:5)
-41 error     at async Promise.all (index 0)
+15 error Error: Command failed with exit code 1: git remote update
+15 error fatal: unable to access 'https://github.com/lcy668/lcyComponents.git/': OpenSSL SSL_read: Connection was reset, errno 10054
+15 error     at makeError (D:\studySpace\studyCodeSpace\42-VueComponentGallery\storybook-components\node_modules\execa\lib\error.js:60:11)
+15 error     at Function.module.exports.sync (D:\studySpace\studyCodeSpace\42-VueComponentGallery\storybook-components\node_modules\execa\index.js:194:17)
+15 error     at Object.execSync (D:\studySpace\studyCodeSpace\42-VueComponentGallery\storybook-components\node_modules\@lerna\child-process\index.js:39:16)
+15 error     at updateRemote (D:\studySpace\studyCodeSpace\42-VueComponentGallery\storybook-components\node_modules\@lerna\version\lib\is-behind-upstream.js:34:16)
+15 error     at isBehindUpstream (D:\studySpace\studyCodeSpace\42-VueComponentGallery\storybook-components\node_modules\@lerna\version\lib\is-behind-upstream.js:16:3)
+15 error     at VersionCommand.initialize (D:\studySpace\studyCodeSpace\42-VueComponentGallery\storybook-components\node_modules\@lerna\version\index.js:156:9)
